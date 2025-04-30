@@ -1,0 +1,13 @@
+set grid 
+set zeroaxis
+
+set title "2. Ordung Polynom und Messdaten"
+set xlabel "Wpe"
+set ylabel "d" 
+set zlabel "P"
+
+
+f(x,y) = 0.559601 + 0.846621*x + 0.425109*y - 0.706989*x**2 + 0.0339694*x*y - 0.42653*y**2
+
+
+splot "Messdaten.txt" using 1:2:3 with points pt 7 title "Messdaten", f(x,y) with lines palette title "Polynom"

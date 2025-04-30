@@ -1,0 +1,1 @@
+void matrixVector(double** matrix, double* x, double* b, int nrRows, int nrCols);
