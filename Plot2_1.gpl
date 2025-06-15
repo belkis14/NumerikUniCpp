@@ -1,0 +1,10 @@
+set terminal qt 0
+set title "Newton-Verfahren für x0 = -2"
+set xlabel "Iteration (k)"
+set ylabel "x_k"
+plot "output_minus2.dat" using 1:2 with linespoints title 'x0 = -2'
+set terminal qt 1
+set title "Newton-Verfahren für x0 = 42"
+set xlabel "Iteration (k)"
+set ylabel "x_k"
+plot "output_42.dat" using 1:2 with linespoints title 'x0 = 42'
