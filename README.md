@@ -24,6 +24,14 @@ Each folder contains:
 - C++
 
 
+## 📝 Purpose
+
+I uploaded these assignments for **documentation purposes** and to **showcase my skills** in numerical analysis and scientific computing. This repository serves as a public portfolio of my academic work.
+
+> ⚠️ **Disclaimer:**  
+> All work in this repository is my own. It is **not permitted** to copy or submit this work for any academic assignments or coursework.  
+> If you're a student, please use this as a **learning resource only**, and write your own code and explanations.
+
 ## 🚀 Getting Started
 
 1. Clone this repo:
