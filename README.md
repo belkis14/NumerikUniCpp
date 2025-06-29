@@ -1,6 +1,6 @@
 # Numerical Methods Assignments
 
-This repository contains a collection of assignments and projects I completed while studying **Numerical Methods** during the summer of 2024. The topics span various core techniques and algorithms used to solve mathematical problems numerically, implemented in Python and/or MATLAB.
+This repository contains a collection of assignments and projects I completed while studying **Numerical Methods** during the summer of 2024. The topics span various core techniques and algorithms used to solve mathematical problems numerically, implemented in C++.
 
 ## 📚 Topics Covered
 
@@ -21,13 +21,12 @@ Each folder contains:
 
 ## 🛠️ Tools & Languages
 
-- Python (NumPy, Matplotlib, etc.)
-- MATLAB
-- Jupyter Notebooks
+- C++
+
 
 ## 🚀 Getting Started
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/numerical-methods-assignments.git
-   cd numerical-methods-assignments
+   git clone https://github.com/belkis14/NumerikUniCpp.git
+   cd NumerikUniCpp
