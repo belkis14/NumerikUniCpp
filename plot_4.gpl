@@ -1,0 +1,82 @@
+set terminal qt 0
+set grid
+set zeroaxis
+
+set xlabel "t"
+set ylabel "c"
+set title "Implizit -> cA"
+
+plot "Implizit.txt" using 2:3 with lines title "cA"
+
+set terminal qt 1
+set grid
+set zeroaxis
+
+set xlabel "t"
+set ylabel "c"
+set title "Implizit -> cB"
+
+plot "Implizit.txt" using 2:4 with lines title "cB"
+
+set terminal qt 2
+set grid
+set zeroaxis
+
+set xlabel "t"
+set ylabel "c"
+set title "Implizit -> cC"
+
+plot "Implizit.txt" using 2:5 with lines title "cC"
+
+
+set terminal qt 3
+set grid
+set zeroaxis
+
+set xlabel "t"
+set ylabel "c"
+set title "Explizit -> cA"
+
+plot "Explizit.txt" using 2:3 with lines title "cA"
+
+set terminal qt 4
+set grid
+set zeroaxis
+
+set xlabel "t"
+set ylabel "c"
+set title "Explizit -> cB"
+
+plot "Explizit.txt" using 2:4 with lines title "cB"
+
+set terminal qt 5
+set grid
+set zeroaxis
+
+set xlabel "t"
+set ylabel "c"
+set title "Explizit -> cC"
+
+plot "Explizit.txt" using 2:5 with lines title "cC"
+
+
+set terminal qt 6
+set grid
+set zeroaxis
+
+set xlabel "t"
+set ylabel "h"
+set title "Implizit -> h"
+
+plot "Implizit.txt" using 2:1 with lines points "h"
+
+
+set terminal qt 7
+set grid
+set zeroaxis
+
+set xlabel "t"
+set ylabel "h"
+set title "Explizit -> h"
+
+plot "Explizit.txt" using 2:1 with lines points "h"
