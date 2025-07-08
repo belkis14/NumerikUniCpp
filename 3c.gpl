@@ -1,0 +1,39 @@
+set terminal qt 0
+set grid
+set title "Explizites Euler-Verfahren"
+set xlabel "Zeit (t)"
+set ylabel "Konzentration"
+plot "Explizit.txt" using 1:2 with lines title "cA"
+
+set terminal qt 1
+set grid
+set title "Explizites Euler-Verfahren"
+set xlabel "Zeit (t)"
+set ylabel "Konzentration"
+plot "Explizit.txt" using 1:3 with lines title "cB"
+
+set terminal qt 2
+set grid
+set title "Explizites Euler-Verfahren"
+set xlabel "Zeit (t)"
+set ylabel "Konzentration"
+plot "Explizit.txt" using 1:4 with lines title "cC" 
+
+set terminal qt 3
+set title "Implizites Euler-Verfahren"
+set xlabel "Zeit (t)"
+set ylabel "Konzentration"
+plot "Implizit.txt" using 1:2 with lines title "cA"
+
+set terminal qt 4
+set title "Implizites Euler-Verfahren"
+set xlabel "Zeit (t)"
+set ylabel "Konzentration"
+plot "Implizit.txt" using 1:3 with lines title "cB" 
+
+set terminal qt 5
+set title "Implizites Euler-Verfahren"
+set xlabel "Zeit (t)"
+set ylabel "Konzentration"
+plot "Implizit.txt" using 1:4 with lines title "cC"
+
